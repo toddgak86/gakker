@@ -280,7 +280,7 @@ function apppendModalDiv()
 						modalDiv += '<a href="http://cleanmywall.netbew.com/index.en.html" title="Clean My Wall" target="_blank"><img src="//cleanmywall.netbew.com/cmw/cleanmywall.gif" width="140" height="75" alt="Clean My Wall" title="Clean My Wall" border="0" align="absmiddle" /></a>';
 						modalDiv += 'Clean My Wall, the ultimate solution to clean your wall !';
 						modalDiv += '<div style="margin-left: 50px; margin-top: -15px;">';
-							modalDiv += '<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/pages/Clean-My-Wall/295522143798018&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=45" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:45px;" allowTransparency="true"></iframe>';
+							modalDiv += '<span style="font-size:10px; color: blue;">CP :)</span>';
 						modalDiv += '</div>';
 					modalDiv += '</div>';
 	
