@@ -133,7 +133,7 @@ function searchOlderPosts()
 	if (bottomPageLinks.length > 0) {
 		for (var i = 0; i < bottomPageLinks.length; i++) {
 			if (bottomPageLinks[i].className.indexOf('uiMorePagerPrimary') > -1) {
-				document.getElementById('cmw_statusMsg').innerHTML = 'Searching for older posts... <img src="http://cleanmywall.netbew.com/cmw/wait.gif" align="absmiddle" border="0" />';
+				document.getElementById('cmw_statusMsg').innerHTML = 'Searching for older posts... <img src="//cleanmywall.netbew.com/cmw/wait.gif" align="absmiddle" border="0" />';
 				simulateClick(bottomPageLinks[i]);
 				return true;
 			}
@@ -199,7 +199,7 @@ function getMiniFeed()
 	document.getElementById('cmw_stopButton').disabled = '';
 	document.getElementById('cmw_goButton').disabled = 'disabled';
 	document.getElementById('cmw_infosdiv').style.display = '';
-	document.getElementById('cmw_statusMsg').innerHTML = 'Cleaning, please wait... <img src="http://cleanmywall.netbew.com/cmw/wait.gif" align="absmiddle" border="0" />';
+	document.getElementById('cmw_statusMsg').innerHTML = 'Cleaning, please wait... <img src="//cleanmywall.netbew.com/cmw/wait.gif" align="absmiddle" border="0" />';
 	document.getElementById('cmw_warningdiv').style.display = 'none';
 	
     r = 0;
@@ -277,7 +277,7 @@ function apppendModalDiv()
 				modalDiv += '<div style="width: 700px; margin-left: auto; margin-right: auto; margin-top: 45px; position: relative;" id="cmw_divcontent">';
 	
 					modalDiv += '<div style="text-align: center; font-size: 18px; font-weight: bold;">';
-						modalDiv += '<a href="http://cleanmywall.netbew.com/index.en.html" title="Clean My Wall" target="_blank"><img src="http://cleanmywall.netbew.com/cmw/cleanmywall.gif" width="140" height="75" alt="Clean My Wall" title="Clean My Wall" border="0" align="absmiddle" /></a>';
+						modalDiv += '<a href="http://cleanmywall.netbew.com/index.en.html" title="Clean My Wall" target="_blank"><img src="//cleanmywall.netbew.com/cmw/cleanmywall.gif" width="140" height="75" alt="Clean My Wall" title="Clean My Wall" border="0" align="absmiddle" /></a>';
 						modalDiv += 'Clean My Wall, the ultimate solution to clean your wall !';
 						modalDiv += '<div style="margin-left: 50px; margin-top: -15px;">';
 							modalDiv += '<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/pages/Clean-My-Wall/295522143798018&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=45" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:45px;" allowTransparency="true"></iframe>';
