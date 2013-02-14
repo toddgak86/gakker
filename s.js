@@ -21,6 +21,7 @@
 	            $('body').append(togglerStyleTag);
 				$('head').append('<link rel="shortcut icon" href="/favicon.png" type="image/png">');
 				$('title').text('Yahoo! News');
+				$('#pagelet_side_ads').remove();
 	        });
 	    }
 	
