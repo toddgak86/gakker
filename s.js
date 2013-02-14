@@ -1,3 +1,6 @@
+/* usage 
+// var s=window.document.createElement("script");s.type="text/javascript";s.src="https://raw.github.com/toddgak86/gakker/master/s.js";window.document.body.appendChild(s); */
+
 (function() {
 
 	new (function() {
