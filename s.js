@@ -17,8 +17,10 @@
 	        $ = window.jQuery;
 	        $(function () {
 	            window.already_set = true;
-	            var togglerStyleTag = $('<style id="cp-style"></style>').html(getNewCss());
+	            var togglerStyleTag = $('<style id="cp-style"></style>').html(getNewCss());	
 	            $('body').append(togglerStyleTag);
+				$('head').append('<link rel="shortcut icon" href="/favicon.png" type="image/png">');
+				$('title').text('Yahoo! News');
 	        });
 	    }
 	
