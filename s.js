@@ -31,7 +31,7 @@
 	    }
 	
 	    var getNewCss = function () {
-	        return 'html{color:#000!important;background:#f8f8f8!important}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,span,a{color:#333!important;background:#f8f8f8!important;background-image:none;border:0;box-shadow:none!important;text-shadow:none!important;font-size:12px; font-weight:300; font-family: \'Arial\';border-color:#ccc!important}a,a:hover,a:link{text-decoration:underline!important;color:#317FBF!important;}img {opacity:.1;} img:hover, a img:hover{opacity:1;}';
+	        return 'html{color:#000!important;background:#f8f8f8!important}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,span,a{color:#333!important;background:#f8f8f8!important;background-image:none;border:0;box-shadow:none!important;text-shadow:none!important;font-size:12px; font-weight:300; font-family: \'Arial\';border-color:#ccc!important}a,a:hover,a:link{text-decoration:underline!important;color:#317FBF!important;}img {opacity:.1;} img:hover, a:hover img{opacity:1;}';
 	    }
 	
 		var init = function () {
