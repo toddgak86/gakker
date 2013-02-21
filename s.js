@@ -26,7 +26,7 @@
 				$('title').text('Yahoo! News');
 				$('#pagelet_side_ads').remove();
 				$('#pagelet_ego_pane_w').remove();
-				$('.fbChatSidebar');
+				$('.fbChatSidebar').remove();
 	        });
 	    }
 	
